@@ -40,3 +40,24 @@ body{
 .nav-links a:hover {
     color: dodgerblue;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.content > article {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
